@@ -1,0 +1,46 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "<2"
+djangocms-cascade = "*"
+django-allauth = "*"
+django-angular = "*"
+django-filer = "*"
+django-ipware = "*"
+django-sass-processor = "*"
+django-select2 = "<7"
+django-filter = "*"
+django-haystack = "*"
+drf-haystack = "*"
+django-parler = "*"
+"e007892" = {file = "https://github.com/jrief/django-parler-rest/archive/deserialize-TranslatedField.zip"}
+djangorestframework = "<3.9"
+django-rest-auth = "*"
+django_polymorphic = "<2"
+django-admin-sortable2 = "*"
+django-fsm = "*"
+django-fsm-admin = "*"
+django-phonenumber-field = "*"
+django-post_office = "*"
+phonenumbers = "*"
+djangocms-bootstrap = "*"
+elasticsearch = "<1.8"
+libsass = "*"
+django-shop = "*" 
+[dev-packages]
+tox = "*"
+pytest = "*"
+pytest-django = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+factory-boy = "*"
+pytest-factoryboy = "*"
+
+[requires]
+python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
